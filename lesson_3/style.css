@@ -1,0 +1,31 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background: -webkit-gradient(linear, left top, right bottom, from(#040a0e), to(#4491c4)) fixed;
+}
+
+h1 {
+    font-weight: 600;
+    color: #FFF;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: left;
+
+}
+
+h2 {
+    color: #e5e5e5;
+    font-weight: 500;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e5e5e5;
+    width: 70%;
+    text-align: left;
+}
+
+p{
+    color: #e5e5e5;
+    font-size: 16px;
+    font-weight: 400;
+}
