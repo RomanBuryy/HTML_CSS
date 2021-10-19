@@ -1,0 +1,43 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+
+    flex-direction: column;
+    flex-basis: 300px;
+}
+
+.content {
+    display: flex;
+    flex-basis: 300px;
+}
+
+.main {
+    flex-grow: 3;
+    background-color: #4491c4;
+
+}
+
+.aside {
+    flex-grow: 1;
+    background-color: #1a4767;
+}
+
+.header {
+    height: 100px;
+    background-color: #82bad7;
+}
+
+.nav {
+    height: 90px;
+    background-color: #0095ff;
+}
+
+.footer {
+    height: 100px;
+    background-color: #477193;
+}

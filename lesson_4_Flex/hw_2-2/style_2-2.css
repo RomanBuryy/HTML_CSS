@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    min-height: 100%;
+
+}
+
+.big_widgets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.big_widget {
+    height: 400px;
+    flex-grow: 1;
+    background-color: burlywood;
+}
+
+.widgets {
+    height: 100px;
+    background-color: #4491c4;
+}
+
+.contact {
+    height: 100px;
+    background-color: #ff6b00;
+}

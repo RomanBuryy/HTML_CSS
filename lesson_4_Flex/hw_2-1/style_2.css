@@ -1,0 +1,40 @@
+.content {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    row-gap: 20px;
+    flex-grow: 3;
+}
+
+.menu {
+    flex-grow: 1;
+    background-color: #1bd250;
+}
+
+.post {
+    height: 150px;
+    background-color: #4491c4;
+    width: 100%;
+}
+
+.header {
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.footer {
+    height: 50px;
+    background-color: #ff6b00;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
