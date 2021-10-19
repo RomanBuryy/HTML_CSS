@@ -1,0 +1,53 @@
+.content{
+    display: flex;
+    border: 1px solid red;
+    height: 700px;
+    justify-content: flex-start;
+    flex-direction: column;
+
+
+
+
+
+}
+
+
+
+.hero{
+    flex-basis: 200px;
+    height: 200px;
+    background-color: #1bd250;
+}
+.main-content{
+
+    flex-basis: 200px;
+    height: 270px;
+    background-color: #0095ff;
+
+}
+
+.sidebar{
+    flex-basis: 200px;
+    height: 220px;
+    background-color: #ff6b00;
+    margin-top: -90px;
+
+}
+
+.extra-content{
+    flex-basis: 200px;
+    height: 150px;
+    background-color: green;
+    margin-top: -20px;
+}
+
+.a{
+    display: flex;
+    height: 300px;
+    column-gap: 10px;
+}
+
+.b{
+    display: flex;
+    column-gap: 10px;
+}
