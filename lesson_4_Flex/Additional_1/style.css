@@ -1,53 +1,77 @@
-.content{
+.content {
     display: flex;
-    border: 1px solid red;
-    height: 700px;
-    justify-content: flex-start;
-    flex-direction: column;
-
-
-
-
-
+   flex-direction: column;
 }
 
-
-
-.hero{
-    flex-basis: 200px;
+.hero {
+    flex-grow: 1;
     height: 200px;
-    background-color: #1bd250;
+    background-color: #D7C9E3;
 }
-.main-content{
 
-    flex-basis: 200px;
+.main-content {
+    flex-grow: 1;
     height: 270px;
-    background-color: #0095ff;
-
+    background-color: #F5C632;
 }
 
-.sidebar{
-    flex-basis: 200px;
+.sidebar {
+    flex-grow: 1;
     height: 220px;
-    background-color: #ff6b00;
+    background-color: #9FC363;
     margin-top: -90px;
-
 }
 
-.extra-content{
-    flex-basis: 200px;
+.extra-content {
+    flex-grow: 1;
     height: 150px;
-    background-color: green;
+    background-color: #898989;
     margin-top: -20px;
 }
 
-.a{
+.a {
     display: flex;
     height: 300px;
     column-gap: 10px;
 }
 
-.b{
+.b {
     display: flex;
     column-gap: 10px;
 }
+
+.header {
+    height: 100px;
+    background-color: #54D5EB;
+    margin-bottom: 10px;
+}
+
+.images {
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    height: 100px;
+}
+
+.related-images {
+    flex-grow: 4;
+    background-color: #2BB673;
+}
+
+.posts {
+    flex-grow: 1;
+    background-color: #F2CDDE;
+}
+
+.foo{
+    display: flex;
+    height: 100px;
+    background-color: #FEA500;
+    margin-top: 10px;
+}
+
+.footer{
+    height: 100%;
+}
+
