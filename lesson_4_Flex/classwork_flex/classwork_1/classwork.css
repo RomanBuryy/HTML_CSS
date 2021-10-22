@@ -42,7 +42,7 @@
     width: 100%;
 }
 
-.b, .c, .d, .e{
+.b, .bottom_icon, .d, .e{
     flex-grow: 1;
     border: 1px solid black;
 }
