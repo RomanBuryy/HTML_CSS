@@ -1,0 +1,56 @@
+@media screen and (max-width: 320px) {
+
+    .wr {
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        row-gap: 14px;
+    }
+
+    .logo > img {
+        width: 46px;
+        height: 32px;
+
+    }
+
+    .header {
+        padding: 20px 20px 0 20px;
+    }
+
+    .border_menu, .phone, .button {
+        display: none;
+    }
+
+    .header__text {
+        margin-top: 40%;
+        width: 100%;
+    }
+
+    .header__text_h1 {
+        font-size: 48px;
+    }
+
+    .header__text_h2 {
+        font-size: 18px;
+
+    }
+
+    .benefits__item {
+        width: 290px;
+        height: 276px;
+        padding: 12px;
+    }
+
+    .item__text_header {
+        font-size: 20px;
+    }
+
+    .item__text {
+        row-gap: 8px;
+    }
+
+    .item__text_p {
+        font-size: 16px;
+    }
+}
