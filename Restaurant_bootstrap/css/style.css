@@ -1,20 +1,22 @@
-.container{
+.container {
     height: 100vh;
     max-width: 1110px;
 }
 
-.container-fluid{
+
+
+#bg__header {
     background: url("../images/hero image.png") no-repeat center/cover;
 }
 
-.block{
-    background-color: #ff6b00;
-    height: 100%;
-    text-align: center;
-    padding: 20px;
+.navbar-light .navbar-nav .nav-link{
+    color: #FFFFFF;
 }
 
-.header{
-    min-height: 70px;
-    margin-bottom: 204px;
+.navbar-light .navbar-nav .nav-link:active{
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link:visited{
+    color: #FFFFFF;
 }
