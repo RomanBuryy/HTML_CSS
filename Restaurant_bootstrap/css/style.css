@@ -1,22 +1,3 @@
-.container {
-    height: 100vh;
-    max-width: 1110px;
-}
-
-
-
-#bg__header {
-    background: url("../images/hero image.png") no-repeat center/cover;
-}
-
-.navbar-light .navbar-nav .nav-link{
-    color: #FFFFFF;
-}
-
-.navbar-light .navbar-nav .nav-link:active{
-    color: #FFFFFF;
-}
-
-.navbar-light .navbar-nav .nav-link:visited{
-    color: #FFFFFF;
+.bg__image{
+    background: url("../images/hero image.png");
 }
