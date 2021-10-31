@@ -1,6 +1,6 @@
 .bg__image{
     background: url("../images/hero image.png") no-repeat center/cover;
-    height: 100vh;
+    height: 800px;
 }
 
 
@@ -35,4 +35,14 @@
 .pos-abs{
     position: absolute;
     top: -100px;
+}
+
+h5 span{
+    color: #BC9060;
+}
+
+.fs-1 {
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    font-size: 72px;
 }
