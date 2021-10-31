@@ -1,53 +1,49 @@
-.bg__image{
+.bg__image {
     background: url("../images/hero image.png") no-repeat center/cover;
     height: 800px;
 }
 
-
-
-.btn-warning, .btn-warning:hover, .btn-warning:visited, .btn-warning:focus{
+.btn-warning, .btn-warning:hover, .btn-warning:visited, .btn-warning:focus {
     background-color: #FF7400;
-    border-color: #FF7400 ;
+    border-color: #FF7400;
     color: #fff;
 }
 
-.header-color{
+.header-color {
     color: #FF7400;
 }
 
-
-
-.marg{
+.marg {
     margin-top: 10%;
 }
 
-.card-img-top{
+.card-img-top {
     height: 100px;
     width: 100px;
     justify-content: center;
 }
 
-.card__group{
+.card__group {
     height: 50vh;
 }
 
-.pos-rel{
+.pos-rel {
     position: relative;
 }
 
-.pos-abs{
+.pos-abs {
     position: absolute;
     top: -100px;
 }
 
-h5 span{
+h5 span {
     color: #BC9060;
 }
 
-.font-family{
+.font-family {
     font-family: 'Caveat', cursive;
 }
 
-.color-white{
+.color-white {
     color: #FFFFFF;
 }
