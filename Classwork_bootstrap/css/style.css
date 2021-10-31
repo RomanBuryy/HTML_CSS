@@ -1,0 +1,15 @@
+.left__text {
+    color: #1652AC;
+}
+
+
+.grey__line {
+    width: 228px;
+    height: 8px;
+    background-color: #EDEFF3;
+    margin: 68px 0 55px 0;
+}
+
+.plant-color {
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+}
