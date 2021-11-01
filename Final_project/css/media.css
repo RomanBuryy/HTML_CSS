@@ -1,0 +1,17 @@
+@media screen and (max-width: 575px) {
+    .header__nav {
+        padding-left: 0;
+        font-size: 12px;
+    }
+
+    .header__right, .nav__left__item {
+        display: none;
+    }
+
+    .header {
+        font-size: 12px;
+    }
+
+
+
+}
