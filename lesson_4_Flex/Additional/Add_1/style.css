@@ -29,7 +29,7 @@
     margin-top: -20px;
 }
 
-.a {
+.categories__row {
     display: flex;
     height: 300px;
     column-gap: 10px;

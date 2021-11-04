@@ -160,7 +160,7 @@
     position: relative;
 }
 
-.benefits .wr {
+.benefits .header__info {
     position: absolute;
     display: flex;
     top: -100px;

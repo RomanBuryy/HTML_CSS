@@ -4,14 +4,91 @@
         font-size: 12px;
     }
 
-    .header__right, .nav__left__item {
+    .header__info {
+        padding-top: 16px;
+    }
+
+    .header__right, .nav__left__item, .time, .street, .logo__text, .call, .right__nav {
         display: none;
     }
+
 
     .header {
         font-size: 12px;
     }
 
+    .logo__h1 {
+        font-size: 18px;
+    }
 
+    .phone__number {
+        font-size: 12px;
+    }
+
+    .phone__form {
+        font-size: 10px;
+    }
+
+    .search {
+        min-width: 200px;
+    }
+
+    .btn span {
+        display: none;
+    }
+
+    .carousel-item img {
+        height: 195px;
+    }
+
+    .actions {
+        flex-direction: row;
+        margin-top: 10px;
+        column-gap: 10px;
+        overflow: hidden;
+    }
+
+    .action {
+        min-width: 230px;
+
+    }
+
+    .action__sale, .action__info-h1 {
+        font-size: 12px;
+    }
+
+    .action__info-img {
+        width: 58px;
+        height: 54px;
+    }
+
+    .action__info-price {
+        font-size: 14px;
+    }
+
+    .categories {
+        margin-top: 20px;
+    }
+
+    .categories_h1 {
+        font-size: 16px;
+
+    }
+
+    .categories_h2 {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 14px
+    }
+
+    .categories__img img {
+
+        height: 97px;
+        margin-right: 16px;
+    }
+
+    .categories__text {
+        padding: 16px;
+    }
 
 }

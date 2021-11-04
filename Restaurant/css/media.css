@@ -1,6 +1,6 @@
 @media screen and (max-width: 320px) {
 
-    .wr {
+    .header__info {
         justify-content: center;
         flex-direction: column;
         width: 100%;
