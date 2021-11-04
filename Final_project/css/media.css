@@ -91,4 +91,11 @@
         padding: 16px;
     }
 
+    .button__row{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+
 }
