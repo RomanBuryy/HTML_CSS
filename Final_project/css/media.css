@@ -12,7 +12,6 @@
         display: none;
     }
 
-
     .header {
         font-size: 12px;
     }
@@ -45,11 +44,11 @@
         flex-direction: row;
         margin-top: 10px;
         column-gap: 10px;
-        overflow: hidden;
+        overflow: scroll;
     }
 
     .action {
-        min-width: 230px;
+        min-width: 270px;
 
     }
 
@@ -91,11 +90,101 @@
         padding: 16px;
     }
 
-    .button__row{
+    .button__row {
         margin-top: 30px;
         margin-bottom: 30px;
-        overflow: hidden;
+        overflow: scroll;
     }
 
+    .selections--marbot {
+        margin-bottom: 80px;
+    }
+
+    .selections__h1 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #0A1A2C;
+    }
+
+    .selections__price {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFB800;
+        margin-top: 20px;
+    }
+
+    .selections__price span {
+        font-size: 10px;
+        line-height: 12px;
+        text-decoration-line: line-through;
+        color: #C2C5DA;
+    }
+
+    .market__market {
+        display: none;
+    }
+
+    .market .btn {
+        font-size: .7rem;
+    }
+
+    .selections__img img {
+        max-width: 149px;
+    }
+
+    .news__header {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .footer__icons {
+
+        justify-content: center;
+    }
+
+    .partwrap img {
+        width: 110px;
+        height: 85px;
+        right: 35px;
+        top: -140px;
+    }
+
+    .part__text {
+        left: 20px;
+        top: -180px;
+    }
+
+    .part__text_h1 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #0A1A2C;
+    }
+
+    .part__text_h2 {
+        font-size: 10px;
+        line-height: 12px;
+        text-decoration-line: underline;
+        color: #717171;;
+    }
+
+    .part__text_price {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #005BB9;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .part__text_price span {
+        display: block;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration-line: line-through;
+        color: #C2C5DA;
+    }
 
 }
