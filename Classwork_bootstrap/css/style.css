@@ -13,3 +13,19 @@
 .plant-color {
     background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
 }
+
+.text-wrap{
+
+
+}
+
+.text__header{
+    margin-bottom: 36px;
+}
+
+.text-wrap p{
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #FBFDFF;
+}
